@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="280.692" tests="19" errors="0" skipped="7" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\QA\Selenium_workspace\FreeCRMTestProject\target\test-classes;C:\QA\Selenium_workspace\FreeCRMTestProject\target\classes;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\gurin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\gurin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gurin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\gurin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gurin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\gurin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gurin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\gurin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\gurin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gurin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gurin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\gurin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\gurin\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\gurin\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\gurin\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\gurin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\gurin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\gurin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\gurin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\gurin\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\gurin\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\gurin\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\gurin\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\gurin\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\gurin\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\gurin\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\gurin\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\gurin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\gurin\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\gurin\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\gurin\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\gurin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\gurin\AppData\Local\Temp\surefire3156754201800251880\surefirebooter7106147609631802389.jar C:\Users\gurin\AppData\Local\Temp\surefire3156754201800251880 2022-12-15T20-34-13_022-jvmRun1 surefire17194210120999294066tmp surefire_07140834535944353121tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\QA\Selenium_workspace\FreeCRMTestProject\target\test-classes;C:\QA\Selenium_workspace\FreeCRMTestProject\target\classes;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\gurin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\gurin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\gurin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gurin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\gurin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gurin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\gurin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gurin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\gurin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\gurin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gurin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gurin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\gurin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\gurin\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\gurin\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\gurin\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\gurin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\gurin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\gurin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\gurin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\gurin\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\gurin\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\gurin\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\gurin\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\gurin\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\gurin\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\gurin\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\gurin\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\gurin\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\gurin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\gurin\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\gurin\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\gurin\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\gurin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gurin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\QA\Selenium_workspace\FreeCRMTestProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gurin\AppData\Local\Temp\surefire3156754201800251880\surefirebooter7106147609631802389.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="gurin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\gurin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gurin\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\QA\Selenium_workspace\FreeCRMTestProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\gurin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gurin\AppData\Local\Programs\Python\Python310\;C:\Users\gurin\AppData\Local\Programs\Python\Python310\Scripts\;C:\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gurin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\gurin\AppData\Local\Programs\Python\Python310\;C:\Users\gurin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyContactsPagelabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.237"/>
+  <testcase name="selectSingleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.272"/>
+  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.525"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="1.886"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="1.785"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="TimedPromise timed out after 20000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;NASIB&apos;, ip: &apos;10.0.0.205&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 156, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 8c29893d-c705-4e1f-a7ac-02df8d01c812"/>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="TimedPromise timed out after 20000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;NASIB&apos;, ip: &apos;10.0.0.205&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 156, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 8c29893d-c705-4e1f-a7ac-02df8d01c812"/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="34.257">
+    <failure message="TimedPromise timed out after 20000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;NASIB&apos;, ip: &apos;10.0.0.205&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 156, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 8c29893d-c705-4e1f-a7ac-02df8d01c812" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 20000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NASIB', ip: '10.0.0.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 156, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8c29893d-c705-4e1f-a7ac-02df8d01c812
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com'
+Exception occured: org.openqa.selenium.TimeoutException: TimedPromise timed out after 20000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NASIB', ip: '10.0.0.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 156, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8c29893d-c705-4e1f-a7ac-02df8d01c812
+]]></system-out>
+    <system-err><![CDATA[1671154564032	Marionette	INFO	Stopped listening on port 64753
+[Parent 18068, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1671154569954	geckodriver	INFO	Listening on 127.0.0.1:64103
+1671154570000	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\gurin\\AppData\\Local\\Temp\\rust_mozprofileM0DG32"
+1671154570889	Marionette	INFO	Marionette enabled
+1671154570905	Marionette	INFO	Listening on port 65004
+Read port: 65004
+1671154571150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gurin\\AppData\\Local\\Temp\\rust_mozprofileM0DG32\\search.json.mozlz4", (void 0)))
+Dec. 15, 2022 8:36:16 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec. 15, 2022 8:36:36 P.M. org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.028">
+    <failure message="Home page title not matched expected [CRMPRO] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]" type="java.lang.AssertionError">java.lang.AssertionError: Home page title not matched expected [CRMPRO] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:40)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com'
+Navigated to:'https://classic.crmpro.com'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+]]></system-out>
+    <system-err><![CDATA[1671154596948	geckodriver	INFO	Listening on 127.0.0.1:32601
+1671154596989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\gurin\\AppData\\Local\\Temp\\rust_mozprofilevOFWC7"
+1671154600749	Marionette	INFO	Marionette enabled
+1671154600769	Marionette	INFO	Listening on port 65323
+Read port: 65323
+1671154601346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gurin\\AppData\\Local\\Temp\\rust_mozprofilevOFWC7\\search.json.mozlz4", (void 0)))
+Dec. 15, 2022 8:36:49 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://classic.crmpro.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://classic.crmpro.com."
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="3.698"/>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="4.361"/>
+  <testcase name="LoginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.007"/>
+  <testcase name="CRMLogoTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.141"/>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="33.393">
+    <failure message="TimedPromise timed out after 20000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;NASIB&apos;, ip: &apos;10.0.0.205&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28304, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 85601f65-e215-4b51-b762-c607c40a6284" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 20000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NASIB', ip: '10.0.0.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28304, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85601f65-e215-4b51-b762-c607c40a6284
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com'
+Exception occured: org.openqa.selenium.TimeoutException: TimedPromise timed out after 20000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NASIB', ip: '10.0.0.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28304, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85601f65-e215-4b51-b762-c607c40a6284
+]]></system-out>
+    <system-err><![CDATA[1671154701448	Marionette	INFO	Stopped listening on port 50121
+1671154706222	geckodriver	INFO	Listening on 127.0.0.1:62493
+1671154706292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\gurin\\AppData\\Local\\Temp\\rust_mozprofileHIyiQF"
+1671154707626	Marionette	INFO	Marionette enabled
+1671154707689	Marionette	INFO	Listening on port 50391
+Read port: 50391
+1671154708041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gurin\\AppData\\Local\\Temp\\rust_mozprofileHIyiQF\\search.json.mozlz4", (void 0)))
+Dec. 15, 2022 8:38:34 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec. 15, 2022 8:38:54 P.M. org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="TimedPromise timed out after 20000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;NASIB&apos;, ip: &apos;10.0.0.205&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28304, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 85601f65-e215-4b51-b762-c607c40a6284"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

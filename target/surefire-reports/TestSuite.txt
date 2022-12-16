@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 280.692 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 34.257 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 20000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NASIB', ip: '10.0.0.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 156, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8c29893d-c705-4e1f-a7ac-02df8d01c812
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+
+verifyHomePageTitleTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: Home page title not matched expected [CRMPRO] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:40)
+
+setUp(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 33.393 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+TimedPromise timed out after 20000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'NASIB', ip: '10.0.0.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 107.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221128144904, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28304, moz:profile: C:\Users\gurin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85601f65-e215-4b51-b762-c607c40a6284
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+
